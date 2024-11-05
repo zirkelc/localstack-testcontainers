@@ -1,0 +1,19 @@
+{
+  "name": "localstack-testcontainers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.682.0",
+    "@aws-sdk/util-dynamodb": "^3.685.0",
+    "@testcontainers/localstack": "^10.13.2",
+    "vitest": "^2.1.4"
+  }
+}
