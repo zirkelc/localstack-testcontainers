@@ -13,7 +13,7 @@ import { beforeAll, expect, test } from "vitest";
 const localstack = await new LocalstackContainer("localstack/localstack:3").start();
 
 const region = "eu-central-1";
-const bucket = "middy-store-s3";
+const bucket = "mock-bucket";
 
 const config: S3ClientConfig = {
   region,
